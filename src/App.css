@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Nova Square';
+  /* background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.hor {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.hort {
+  display: flex;
+  justify-content: center;
+}
+
+.horm {
+  width: 200px;
+  height: 12px;
+  border-radius: 10px;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+}
+
+.custom-box-shadow{
+  box-shadow: 20px 20px 60px rgba(255, 255, 255, 0) ,
+  inset -2px -2px 4px rgb(0, 0, 0);
+}
+
+.custom-details{
+  background-color: rgb(255, 255, 255, 0.3);
+  filter: blur(5px);
+}
+
+.datalistbg{
+  background: linear-gradient(130deg, rgb(120, 148, 240) , rgb(221, 145, 145));
+}
+
+.instructbg{
+  background: linear-gradient(130deg, rgba(240, 238, 120, 0.819) , rgb(221, 145, 145));
+}
